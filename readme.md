@@ -52,9 +52,13 @@ type "reboot" in the command line, and your cam should now have new settings app
 
 # INQMEGA PTZ381 1080p Camera Streams
 Verified working in VLC & iSpy Viewer
+
 rtsp://admin:yourpassword@your-ip:554 (If you setup a password in the hwcfg.ini, use this with yourpassword changed)
+
 rtsp://admin@your-ip:554/0/av0 (This one works for some programs, although others require you to remove the admin@ portion.)
+
 rtsp://your-ip:8001 (This will require a login if you have it setup. I believe this is a lower quality/resolution stream)
+
 http://your-ip:554/snapshot (This is a still-image snapshot of the stream)
 
 
